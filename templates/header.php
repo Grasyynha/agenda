@@ -1,6 +1,7 @@
 <?php
 
 include_once("config/url.php");
+include_once("config/connection.php");
 
 ?>
 
@@ -25,8 +26,10 @@ include_once("config/url.php");
                 <img src="<?= $BASE_URL ?>img/logo.svg" alt="Agenda">
             </a>   
             <div>
-                <div class="navbar-nav">    
-                    <a class="nav-link active" id="home-link" href="<?= $BASE_URL ?> index.php">Agenda</a>
-                    <a class="nav-link active" id="home-link" href="<?= $BASE_URL ?> create.php">Adicionar contato</a>
-        </nav>
-    </header>
+            <div class="navbar-nav">
+          <a class="nav-link active" id="home-link" href="<?= $BASE_URL ?>index.php">Agenda</a>
+          <a class="nav-link active" href="<?= $BASE_URL ?>create.php">Adicionar Contato</a>
+        </div>
+      </div>
+    </nav>
+  </header>
