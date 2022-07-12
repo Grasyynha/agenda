@@ -17,7 +17,7 @@
       <input type="text" class="form-control" id="phone" name="phone" placeholder="Digite o telefone" required><br>
      </div>  <div class="form-group">
       <label for="observations">Observações:</label><br>
-      <textarea type="text" class="form-control" id="observations" name="observations" placeholder="Insira as observações"><br></textarea>
+      <textarea type="text" class="form-control" id="observations" name="observations" placeholder="Insira as observações"></textarea><br>
      </div> 
 
   <button type="submit" class="btn btn-primary">Cadastrar</button>
