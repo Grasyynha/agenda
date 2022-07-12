@@ -8,7 +8,7 @@
       <input type="hidden" name="type" value="create">
       <div class="form-group">
         <label for="name">Nome do contato:</label>
-        <input type="text" class="form-control" id="name" name="name" placeholder="Digite o nome" required>
+        <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite o nome" required>
       </div>
       <div class="form-group">
         <label for="phone">Telefone do contato:</label>
